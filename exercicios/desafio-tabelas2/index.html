@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep control</title>
+    <style>
+
+        caption {
+            padding: 10px 0px 10px 0px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightgray;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td, th {
+            border: 0.5px solid black;
+            padding: 10px;
+            text-align: right;
+            background-color: #e9e8e8;
+        }
+
+        .left {
+            text-align: left;
+            background-color: gray;
+        }
+
+        .gender {
+            text-align: left;
+            background-color: lightgray;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Sheep control - 2022</caption>
+        <thead>
+            <tr>
+                <th scope="col" class="left">GENDER</th>
+                <th scope="col" class="left">TAG NUM.</th>
+                <th scope="colgroup" class="left" colspan="3">VACCINES</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td scope="colgroup" class="gender" rowspan="3">Female</td>
+                    <td>BR0001</td>
+                    <td>xy-0</td>
+                    <td>t.i.i</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>BR0005</td>
+                    <td>t.i.i</td>
+                    <td>xy-0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>BR0006</td>
+                    <td></td>
+                    <td>t.i.i</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="colgroup" class="gender" rowspan="3">Male</td>
+                    <td>BR0004</td>
+                    <td>xy-0</td>
+                    <td></td>
+                    <td>t.i.i</td>
+                </tr>
+                <tr>
+                    <td>BR0002</td>
+                    <td>t.i.i</td>
+                    <td></td>
+                    <td>xy-0</td>
+                </tr>
+                <tr>
+                    <td>BR0003</td>
+                    <td></td>
+                    <td></td>
+                    <td>xy-0</td>
+                </tr>
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>
